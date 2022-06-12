@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Ten Assignment</title>
+    <link rel = "stylesheet" href = "node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class = "container">
+    <h1>The Pizza Palace!</h1>
+        <div class = "card">
+            <div class = "card-body">
+                <img src = "https://media.istockphoto.com/photos/tasty-pepperoni-pizza-and-cooking-ingredients-tomatoes-basil-on-black-picture-id1079931572?b=1&k=20&m=1079931572&s=170667a&w=0&h=OiqjwuTRLgPL0MnHJZ_oZOxlLwfKtremSusaVAlq0H4=" class = "img-fluid" width = "100%">
+                <div class = "row">
+                </div>
+                <div class = "row">
+                    <div class = "col-sm">
+                     <div class = "form-group">
+                         <label for = "new-pizza">Type of Pizza</label>
+                         <input type = "text" class = "form-control" id = "new-pizza" placeholder = "Pizza">
+                     </div>
+                     <br>
+                    <div class = "col-sm">
+                     <div class = "form-group">
+                         <label for = "new-instructions">Special Instructions</label>
+                         <input type = "text" class = "form-control" id = "new-instructions" placeholder = "Pizza your way!">
+                        </div>
+                        <br>
+                     <div>
+                         <button id = "addNewTask" class = "btn btn-primary form-control">Create</button>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <table id = "list" class = "table table-dark table-striped">
+         <tr>
+             <th>Pizza</th>
+             <th>Order Date</th>
+             <th>Special Instructions</th>
+             <th>Progress of Order</th>
+             <th>Actions</th>
+         </tr>
+        </table>
+        </div>
+
+    
+
+
+    <script src = "index.js"></script>
+    <script src = "node_modules/jquery/dist/jquery.js"></script>
+    <script src = "node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
